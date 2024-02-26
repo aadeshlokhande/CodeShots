@@ -1,0 +1,278 @@
+Question 1
+Which of the following is not a trend line model
+Linear Trend Line
+Exponential Trend Line
+binomial Trend Line
+Logarithmic Trend Line
+==============================================================
+Question 2
+Which of the following is not a tableau file extensions
+.twb
+.tde
+.tds
+.tpk
+==============================================================
+Question 3
+Default aggregation used for tree map ___
+Sum
+Avg
+Count
+Countd
+==============================================================
+Question 4
+Which Tableau Version is Free
+Tableau Desktop
+Tableau Public
+Tableau Online
+Tableau On prem
+==============================================================
+Question 5
+How do you identify a continous field in Tableau?
+It is identified by a blue pill in the visualisation
+It is identified by a green pill in the visualisation
+It is preceded by a # symbol in the data window
+When added to the visulisation, it produces distinct values
+==============================================================
+Question 6
+Which is not TDE file in tableau
+It is a like MS excel
+It is a like MS access
+It is a like CSV file
+It is a like text file
+==============================================================
+Question 7
+Which of the following are filter options
+Condition
+General
+Top
+All of the above
+==============================================================
+Question 8
+For creating varial size bins we can use _____
+Sets
+Calculated fields
+Groups
+None of the above
+==============================================================
+Question 9
+What are the components of a dashboard
+Horizontal
+Vertical
+Image Extract
+All of the above
+==============================================================
+Question 10
+Shared axis in tableau is for
+Two dimensions
+Two measures
+Both A & B
+None of the above
+==============================================================
+Question 11
+Which chart should we use to see the relationship between two variables?
+Scatter
+Bar
+Pie
+None
+==============================================================
+Question 12
+Which chart should be used for time series analysis?
+Line chart
+Pie chart
+Bar chart
+Scatter Chart
+==============================================================
+Question 13
+Tableau displays data source connections and data fields for the workbook in the ___ on the left side of the workspace.
+Data pane
+Basic Expression
+LoD Expression
+None of the above
+==============================================================
+Question 14
+Dimensions can be aggregated?
+TRUE
+FALSE
+Depends on the data type
+Can't define
+==============================================================
+Question 15
+Which of the following is NOT a Tableau field data type?
+String
+Number
+Float
+Boolean
+==============================================================
+Question 16
+This data type consists of both integer type and floating type.
+Numeric Data type
+Date and Time Data type
+Boolean Data type
+None of the mentioned above
+==============================================================
+Question 17
+A sheet cannot be used within a story directly. Either sheets should be used within a dashboard, or a dashboard should be used within a story.
+TRUE
+FALSE
+Depends on the data type
+Can't define
+==============================================================
+Question 18
+Which one is not the best fitted for Tableau?
+Self Service BI
+Mobile enablement
+Big Data connectivity
+Enterprise Deployment
+==============================================================
+Question 19
+Tableau Desktop is a ___ application and anyone can use it.
+Spark based
+Business analytics
+Traditional based
+None of the mentioned above
+==============================================================
+Question 20
+Tableau Server is a ___ that offers ___ anyone can utilize.
+Business intelligence application, browser-based analytics
+Application development, customer oriented
+Runs on browser, server development and control system devices
+All of the mentioned above
+==============================================================
+Question 21
+In Tableau, a crosstab chart is also known as ___.
+Text table
+Field table
+Both A and B
+None of the mentioned above
+==============================================================
+Question 22
+___, connects several distinct data points, presenting them as one continuous evolution.
+Scatter Plot
+Pie Chart
+The line chart or line graph
+All of the mentioned above
+==============================================================
+Question 23
+___ plot the number of occurrences of a given variable in a set of data.
+Treemaps
+Histograms
+Pie charts
+None of the mentioned above
+==============================================================
+Question 24
+Amongst which of the following shows in Box plot?
+First quartile
+Median
+Outliers
+All of the mentioned above
+==============================================================
+Question 25
+___ is a simple and compelling way to show how location correlates with trends in our data.
+Map
+Treemaps
+Histograms
+None of the mentioned above
+==============================================================
+Question 26
+Which join is used in data blending?
+Inner Join
+Right Join
+Left Join
+No join as such
+==============================================================
+Question 27
+Which of the following is not a basic filter in Tableau?
+Filter Dates
+Filter Dimensions
+Filter Fields
+Filter Text
+==============================================================
+Question 28
+_______ sets the language to be used in the report.
+Tableau Lang
+Default Locale
+Workbook Locale
+Locale 
+Question 29
+Which of the following filter selects values containing the specified characters?
+Multiple Values (List)
+Single Value (List)
+Multiple Values (Dropdown)
+Wildcard Match
+==============================================================
+Question 30
+Which is not an operator in Tableau?
+Conditional Operators
+Arithmetic operators
+Logical Operators
+General Operators
+==============================================================
+Question 31
+_______ is used to extend the normal data views with some additional features.
+Drill down view
+Custom data view
+Swapping dimensions
+None of the mentioned
+==============================================================
+Question 32
+Can We Perform All Kinds Of Joins Using Data Blending?
+Yes
+No
+Sometimes
+May Be
+==============================================================
+Question 33
+Dimensions Can Be Aggregated
+TRUE
+FALSE
+Sometimes
+May Be
+==============================================================
+Question 34
+What Is The Possible Cause Of The Data Not Being Updated?
+The data source configuration of Data Extrac needs to be refreshed
+Data Extrac needs an update
+The workers of Data Extrac are taking a timeout
+Services on Data Extrac are not running
+==============================================================
+Question 35
+How Many Maximum Tables Can You Join In Tableau?
+2
+8
+16
+32
+==============================================================
+Question 36
+What are different Tableau products?
+Server
+Reader
+Online
+All of above
+==============================================================
+Question 37
+Which one is not the best fitment for Tableau
+Self Service BI
+Mobile enablement
+Big Data connectivity
+Enterprise Deployment
+==============================================================
+Question 38
+What does the Pareto Rule say?
+80-20 Rule
+60-40 Rule
+20-80 Rule
+None of the mentioned
+==============================================================
+Question 39
+The Featuring activity can be crippled for the whole exercise manual.
+TRUE
+FALSE
+Sometimes
+May Be
+==============================================================
+Question 40
+A sheet can’t be utilized inside a story straightforwardly. Either sheet ought to be utilized inside a dashboard, or a dashboard ought to be utilized inside a story.
+TRUE
+FALSE
+Sometimes
+May Be

@@ -1,0 +1,42 @@
+Hello [Student's Name],
+
+Now that you've conquered C programming, it's time to take the next step with C++. Discover the power of Object-Oriented Programming, the convenience of the Standard Template Library, and enhanced features. C++ opens doors to exciting career opportunities in software development. Let's explore this journey together!
+
+Best regards,
+ICE Computers
+
+
+Aditya,Kamble,7798195165,0
+Archi,Fating,7028872937,0
+Disha,Rajgadkar,9975350299,0
+Harish,Shah,8668501937,0
+Khushi,Agrawal,8605949999,0
+Khushi,Thote,8408877572,0
+Leena,Thakre,9765609185,0
+Mohnish,Sasane,9665082859,0
+Nupur,Gurav,9022508227,0
+Pankaj,Rathod,9359117831,0
+Prashant,Chaudhari,9960686184,0
+Pratik,Raut,8390579282,0
+Pratiksha,Wanare,8767595673,0
+Sagar,Landge,9359101509,0
+Samrudhi,Shyamkuwar,8177955232,0
+Sanjana,Agrawal,7385313899,0
+Shreya,Gabhane,7709655585,0
+Shruti,Bangade,8010253346,0
+Shruti,Amle,9373663088,0
+Srushti,Bandewar,8308157050,0
+Subhodh,Mazi,7775893302,0
+Sumit,Bulkunde,8149295021,0
+Tanmayee,Dube,9359370874,0
+Tejaswini,Rande,9021503317,0
+Yukta,Maske,9028228502,0
+Gunjan,Mangar,9579741885,0
+Shantanu,Wankhede,7058419033,0
+Rohit,Sawaikar,9561436857,0
+Khushi,Chaudhari,8999880488,0
+Pratik,Gawali,9579427932,0
+Pratik,Gawali,9579427932,0
+Neha,Khawase,8766738340,0
+ASHA,LANDGE,9322231581,0
+Anushka,Kedar,7821881814,0

@@ -1,0 +1,468 @@
+Question 1
+Which code will change the date format from 7/15/20 9:41 to "15 July 2020 T 09:41:00 GMT+5:30"
+Options
+a) df['Date'].apply(lambda x: pd.to_datetime(x).strftime("%d %B %Y T %H:%M:%S GMT+5:30"))
+b) df['Date'].lapply(lambda x: pd.to_datetime(x).strftime("%d %B %Y T %H:%M:%S GMT+5:30"))
+c) df['Date'].applymap(lambda x: pd.to_datetime(x).strftime("%d %B %Y T %H:%M:%S GMT+5:30"))
+d) df['Date'].apply(lambda x: pd.to_datetime(x).strptime("%d %B %Y T %H:%M:%S GMT+5:30"))
+
+Question 2
+Write a query to add LoanAmount of all Applicants and find the average and maximum of Loan amounts issued by Banks. In case the LoanAmount is Null(In case of cancelled loans), add 10000Rs. Use the below table and Assume that there can be rows with duplicate records.
+Options
+a) Select * , AVG(Sum1), Max(Sum1) over (Partition By BankNumber)Average_rating From (Select *, Case when LoanAmount IsNull Then 10000+ LoanAmount Else LoanAmount End as Sum1 From Loan)
+b) Select * , Max(Sum1) over (Partition By BankNumber)Average_rating From (Select *, Case when LoanAmount IsNull Then 10000+ Sum(LoanAmount) Else Sum(LoanAmount) End as Sum1 From Loan)
+c) Select * , AVG(Sum1) over (Partition By BankNumber)Average_rating From (Select *, Case when LoanAmount IsNull Then 10000+ Sum(LoanAmount) Else Sum(LoanAmount) End as Sum1
+d) Select * , AVG(Sum1), Max(Sum1) over (Partition By BankNumber)Average_rating From (Select *, Case when LoanAmount IsNull Then 10000+ Sum(LoanAmount) Else Sum(LoanAmount) End as Sum1 From Loan)
+
+Question 3
+This dataset contains information of all the calls done in a call center. Write a query to display the company name, count of calls and the total duration of calls done to companies with the free membership status.
+Options
+a) Select u.company_name, u.membership_status,calls.calls_count, calls. call_duration_in_mins from tbl_calls_user u left join ( Select user_id, count(call_id) as calls_count, sum(call_duration_in_mins) as call_duration_in_mins from tbl_calls group by user_id ) as calls on u.user_id = calls.user_id and u.membership_status = 'Free'
+b) Select u.company_name,u.membership_status,calls.calls_count,calls.call_duration_in_mins from tbl_calls_user u left join (Select user_id, count(call_id) as calls_count, sum(call_duration_in_mins) as call_duration_in_mins from tbl_calls group by user_id ) as calls on u.user_id = calls.user_id Where u.membership_status = 'Free'
+c) Select u.company_name, u.membership_status, calls.calls_count, calls.call_duration_in_mins from tbl_calls_user u right join ( Select user_id, count(call_id) as calls_count, sum(call_duration_in_mins) as call_duration_in_mins from tbl_calls group by user_id ) as calls on u.user_id = calls.user_id Where u.membership_status = 'Free'
+d) Select u.company_name, sum(calls.calls_count) as calls_count,sum(calls.call_duration_in_mins) as call_duration_in_mins from tbl_calls_user u left join ( Select user_id, count(call_id) as calls_count, sum(call_duration_in_mins) as call_duration_in_mins from tbl_calls group by user_id ) as calls on u.user_id = calls.user_id Where u.membership_status = 'Free' group by u.company_name
+
+Question 4
+Which of the following code is NOT the correct way to add tax (Rs.5) to the �Price� column?
+Options
+a) df['Price_with_tax'] = df['Price'].add(5)
+b) df['Price_with_tax'] = df['Price'] + 5
+c) df['Price_with_tax'] = [ df['Price'] + 5 for x in range(len(df))]
+d) df['Price_with_tax']= df.apply(lambda x: x['Price'] + 5, axis = 1)
+
+Question 5
+Consider a scenario where there is a real estate database
+Due to faulty data entry, some field values are missing and there is a possibility of duplication of rows in the table.
+Question: Using the Asset table, what is the highest amount of Asset assuming multiple assets can have same cost.
+Options
+a) SELECT DISTINCT Assetcost FROM (SELECT *, dense_rank() over(order by Assetcost) RN FROM Asset) WHERE RN = 1
+b) SELECT DISTINCT Assetcost FROM Asset A1 WHERE 1= ( SELECT COUNT( DISTINCT ( A2.Assetcost) ) FROM Asset A2 WHERE A2.Assetcost< A1.Assetcost)
+c) SELECT DISTINCT Assetcost FROM (SELECT *, RANK() over(order by AssetCost) RN FROM Asset ORDER BY Assetcost) WHERE RN = 1
+d) SELECT Assetcost FROM (SELECT *, dense_rank() over() RN FROM Asset ORDER BY Assetcost) WHERE RN = 1
+
+Question 10
+Consider a scenario where there is a real estate database
+In the following questions the data mismatch assumptions will be provided. Q-Select the query to find all owners that have same living address city as that of the asset they own. Assume that there can be owners which do not own asset.
+Options
+a) Select Ownerid, Ownerid from Owner O Left outer join Asset A on A.Ownerid =O.Ownerid Left outer join Address Ad A.Addressid=Ad.Addressid where O.Address_city=Ad.city
+b) Select Ownerid, Ownerid from Owner O inner join Asset A on A.Ownerid =O.Ownerid inner join Address Ad A.Addressid=Ad.Addressid where O.Address_city=Ad.city
+c) Both a and b
+d) Neither a and b
+
+Question 11
+Write a query to print the area code of Borivali, in where the 4-digit code is starting from 3rd place of the contact number?
+Options
+a) SELECT MIDDLE(Phone,3,4) FROM Customer WHERE CustomerAddress like �%Borivali%�;
+b) SELECT MID(Phone,4,3) FROM Customer WHERE CustomerAddress like �%Borivali�;
+c) SELECT MID(Phone,3,4) FROM Customer WHERE CustomerAddress like �Borivali�;
+d) SELECT MID(Phone,3,4) FROM Customer WHERE CustomerAddress like �%Borivali%�;
+
+Question 12
+This dataset contains bank transaction details. Damt signifies Deposited Amount, Wamt signifies Withdrawn amount and Tdate signifies transaction Date. Find the cumulative amount deposited in 2017.
+Options
+a) select last_deposit_amount from (select *,Year(Tdate) as Year, sum(Damt) over (partition by Account No, Year(Tdate) by Tdate asc) as total_deposited _amount from table ) where Year=2017
+b) select last_deposit_amount from (select *,Year(Tdate) as Year, sum(Damt) over (partition by Account No, Tdate by Tdate desc) as total_deposited _amount from table ) where Year=2017
+c) select last_deposit_amount from (select *,Year(Tdate) as Year, sum(Damt) over (partition by Account No, Year(Tdate) by Tdate desc) as total_deposited _amount from table) where Year=2017
+d) select last_deposit_amount from (select Tdate as Year, sum(Damt) over (partition by Account No, Year(Tdate) by Tdate asc) as total_deposited _amount from table) where Year=2017
+
+Question 13
+Welness Cart is an Ecommerce Company, selling wellness products online. There are two important tables in their database. 1 tbl_customer contains details of users who have registered on their portal 2 tbl_orders contains details of orders placed by customers . Company wants to calculate customer lifecycle value of a customer, For that we need percentage of the customer spent on each order. Write a query that results in customerID, orderID, order details, and percentage of the order cost to their total spend.
+Options
+a) Select o.cust_id as customerID, o.id as orderID, o.order_details, (cast (total_order_cost as float) /total_cost) * 100 as percentage_value from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id left join (Select cust_id, Cast (count(distinct id) as float) as total_cost from tbl_orders group by cust_id) as d on d.cust_id = o.cust_id
+b) Select o.cust_id as customerID, o.id as orderID, o.order_details, (cast (total_order_cost as float) /sum(total_order_cost) ) * 100 as percentage_value from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id
+c) Select o.cust_id as customerID, o.id as orderID, o.order_details, (cast (total_order_cost as float) /total_cost) * 100 as percentage_value from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id left join (Select cust_id, Cast (sum(total_order_cost) as float) as total_cost from tbl_orders group by cust_id) as d on d.cust_id = o.cust_id
+d) Select o.cust_id as customerID, o.id as orderID, o.order_details, (cast (total_order_cost as float) /total_cost) * 100 as percentage_value from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id left join (Select Cast (sum(total_order_cost) as float) as total_cost from tbl_orders) as d on d.cust_id = o.cust_id
+
+Question 14
+Write a query to list all the students from Commerce and Humanities stream listed out in descending order on the basis of Student ID.
+Options
+a) SELECT * FROM Student WHERE Stream_code= �S02� AND Stream_code= �S03�;
+b) SELECT * FROM Student WHERE Stream_name IN (�Commerce�,�Humanities�) ORDER BY Admin_no desc;
+c) SELECT * FROM Student WHERE Stream_code BETWEEN (�S02�,�S03�);
+d) SELECT * FROM Student WHERE Stream_code IN (�S02�,�S03�) ORDER BY Admin_no desc;
+
+Question 15
+Schema name: Office, Table name: employee. Which of the following code will remove the all the rows from the employee table having �Team� column as empty value.
+Options
+a) DELETE FROM Office.employee WHERE Team = ' ';
+b) DELETE FROM Office.employee WHERE Team IS NULL;
+c) DELETE FROM Office.employee WHERE Team IS EMPTY;
+d) DELETE FROM Office.employee WHERE Team == ' ';
+
+Question 16
+Welness Cart is an Ecommerce Company, selling wellness products online. There are two important tables in their database. 1 tbl_customer contains details of users who have registered on their portal 2 tbl_orders contains details of orders placed by customers . Company's CEO wants to connect with company's favourite customers and As per his requirement, a customer is considered as a favourite if he/she has placed more than 2 orders and total order cost is greater than Rs 200. Write a query for the same.
+Options
+a) Select o.cust_id,c.first_name, count(o.id) as order_count,sum(o.total_order_cost) as total_order_cost from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id group by o.cust_id,c.first_name having count(o.id) > 2 and sum(o.total_order_cost) > 200
+b) Select o.cust_id,c.first_name, count(o.id) as order_count,sum(o.total_order_cost) as total_order_cost from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id where count(o.id) > 2 and sum(o.total_order_cost) > 200 group by o.cust_id,c.first_name
+c) Select o.cust_id,c.first_name, count(o.id) as order_count,sum(o.total_order_cost) as total_order_cost from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id having count(o.id) > 2 and sum(o.total_order_cost) > 200 group by o.cust_id,c.first_name
+d) Select o.cust_id,c.first_name, count(o.id) as order_count,sum(o.total_order_cost) as total_order_cost from tbl_orders as o left join tbl_customer as c on c.id = o.cust_id group by o.cust_id,c.first_name where count(o.id) > 2 and sum(o.total_order_cost) > 200
+
+Question 17
+Find all information of Employee who has reserved boat number 103.Which SQL query is correct?
+Options
+a) SELECT Employee. FROM Employee, Reserves WHERE Employe.Eid = Reserves.bid AND Reserves.bid = 103
+b) SELECT Employee.* FROM Employee, Reserves WHERE Employee.Eid = Reserves.Eid AND Reserves.bid = 103
+c) SELECT Employee. FROM Employee, Reserves WHERE Employee.Eid = Reserves.Eid && Reserves.bid = 103
+d) SELECT Employee. *FROM Employee, Reserves WHERE Employee.Eid = Reserves.Eid & Reserves.bid = 103
+
+Question 18
+First Table description � Employee(emp) In the emp table given below, we have employee name (ename) (varchar), hiredate(date), Salary(sal)((int), job(manager,salesman,clerk,analysts)(varchar),commission(comm)(int), Department number(dno)(int), Manager(manager details)(varchar), Employee Id(empid)(varchar) Second Table description �Department name(dept) In this table given below , we have dno (department number)(int), dname(department name)(sales, accounting, research)(varchar),loc(location)(varchar)
+Q4. Select a query to display the smith manager's department name?
+Options
+a) SELECT dname FROM emp e , dept d WHERE e.dno= d.dno AND empid IN(SELECT manager FROM emp WHERE ename=�smith�);
+b) SELECT dname FROM emp e, dept d WHERE emp IN(SELECT manager FROM emp WHERE ename=�smith�);
+c) SELECT dname FROM dept d WHERE job = �manager� AND ename=�smith�);
+d) SELECT dname FROM dept d WHERE manager IN(SELECT manager FROM emp WHERE ename=�smith�);
+
+Question 19
+Table description � Employee In a Employee table given below, we have E_id(int), Full_name(varchar), Gender(varchar), DOB(Date), Address(varchar), City(varchar), Pincode(int), Country(varchar) Table description � Department In a Department table given below, we have E_id(int), Dept(varchar), DOJ(Date), Salary(int)
+Which of the following query can fetch all employees who have the managerial position?
+Options
+a) SELECT E.Full_name, D.Dept FROM Employee E OUTER JOIN Department D ON E.E_id = D.E_id AND D.Dept IN (�Manager�);
+b) SELECT E.Full_name, D.Dept FROM Employee E INNER JOIN Department D ON E.E_id = D.E_id AND D.Dept NOT IN (�Manager�);
+c) SELECT E.Full_name, D.Dept FROM Employee E INNER JOIN Department D ON E.E_id = D.E_id AND D.Dept IN (�Manager�);
+d) SELECT E.Full_name, D.Dept FROM Employee E INNER JOIN Department D ON E.E_id = D.E_id AND D.Dept IN (�Manager�);
+
+Question 20
+Which code will give the difference between (Deadline and Launched) date and then convert the difference of days in minutes
+Options
+a) df['Launched'] = pd.to_datetime(df['Launched']) df['difference'] = df['Deadline'] - df['Launched'] df['days'] = df['difference'].apply(lambda x: x.dt.days()) df['Minutes'] = df['days']*24*60
+b) df['Deadline'] = pd.to_datetime(df['Deadline']) df['Launched'] = pd.to_datetime(df['Launched']) df['difference'] = df['Deadline'] - df['Launched'] df['days'] = df['difference'].apply(lambda x: x.days) df['Minutes'] = df['days']*24*60
+c) df['Deadline'] = pd.to_datetime(df['Deadline']) df['Launched'] = pd.to_datetime(df['Launched']) df['difference'] = df['Deadline'] - df['Launched'] df['days'] = df['difference'].apply(lambda x: x.days()) df['Minutes'] = df['days']*24*60
+d) df['Deadline'] = pd.to_datetime(df['Deadline']) df['Launched'] = pd.to_datetime(df['Launched']) df['difference'] = df['Deadline'] - df['Launched'] df['days'] = df['difference'].apply(lambda x: x.dt.days) df['Minutes'] = df['days']*24*60
+
+Question 21
+Which code will split "Total Years of experience" into bins and plot a bar graph for their count given that there are missing values and few values in years of experience are like '5.5', '6.7', '1,5',' 11,8'
+Options
+a) df['Total years of experience'] = df['Total years of experience'].fillna('0') df['Total years of experience'] = df['Total years of experience'].apply(lambda x:round(float(x)) if len(x.split(',')) < 2 else None) df['Total years of experience'] = df[df['Total years of experience'] != "None"] df['bins'] = pd.cut(df['Total years of experience'].astype('float'), bins = [0,3, 6, 8, 10, 15,40], labels = ['0-3', '3-6', '6-8', '8-10', '10-15','15+']) pd.DataFrame(df.groupby('bins')['Timestamp'].count()).plot()
+b) df['Total years of experience'] = df['Total years of experience'].fillna('0') df['Total years of experience'] = df['Total years of experience'].apply(lambda x:round(float(x)) if len(x.split(',')) < 2 ) df['Total years of experience'] = df[df['Total years of experience'] != "None"] df['bins'] = pd.cut(df['Total years of experience'].astype('float'), bins = [0,3, 6, 8, 10, 15,40], labels = ['0-3', '3-6', '6-8', '8-10', '10-15','15+']) pd.DataFrame(df.groupby('bins')['Timestamp'].count()).plot()
+c) df['Total years of experience'] = df['Total years of experience'].fillna('0') df['Total years of experience'] = df['Total years of experience'].apply(lambda x round(float(x)) if len(x.split(',')) < 2 ) df['Total years of experience'] = df[df['Total years of experience'] != "None"] df['bins'] = pd.cut(df['Total years of experience'].astype('float'), bins = [0,3, 6, 8, 10, 15,40], labels = ['0-3', '3-6', '6-8', '8-10', '10-15','15+']) pd.DataFrame(df.groupby('bins')['Timestamp'].count()).plot()
+d) df['Total years of experience'] = df['Total years of experience'].fillna('0') df['Total years of experience'] = df['Total years of experience'].apply(lambda x:round(float(x)) if len(x.split(',')) < 2 else: None) df['Total years of experience'] = df[df['Total years of experience'] != "None"] df['bins'] = pd.cut(df['Total years of experience'].astype('float'), bins = [0,3, 6, 8, 10, 15,40], labels = ['0-3', '3-6', '6-8', '8-10', '10-15','15+']) pd.DataFrame(df.groupby('bins')['Timestamp'].count()).plot()
+
+Question 22
+Which code will give the mean budget of drama movies
+Options
+a) m = [] for i in df.iterrows(): a = i[1]['genres'].count('Drama') if a >= 1: j = i[1]['budget'] m.append(j) mean(m)
+b) m = [] for i in df.iterrows(): a = i['genres'].count('Drama') if a >= 1: j = i['budget'] m.append(j) mean(m)
+c) m = [] for i in df.iterrows(): a = i['genres'].count('Drama') if a >= 1: j = i['budget'] m.append(j) mean(m)
+d) m = [] for i in df.iterrows: a = i[1]['genres'].count('Drama') if a >= 1: j = i[1]['budget'] m.append(j) mean(m)
+
+Question 23
+Which code will remove all special character from name column
+Options
+a) df['name_s'] = df['name'].apply(lambda x: x.sub("[$@&?#\�]",""))
+b) df['name_s'] = df['name'].apply(lambda x: "".join(c for c in x if c.isalpha()))
+c) df['name_s'] = df['name'].apply(lambda x: re.sub("[$@&?#\�]","",str(x)))
+d) df['name_s'] = df['name'].apply(lambda x: x.replace("[$@&?#\�]"," "))
+
+Question 24
+Which code will remove all the digits from column 'name'
+Options
+a) df['Name_without_numbers'] = filter(lambda c: not c.isdigit(), df['Name'])
+b) df['Name_without_numbers']=''.join(c if c not in map(str,range(0,10)) else "" for c in df['Name'])
+c) df['Name_without_numbers']=''.join(c if c not in map(str,range(0,20)) else "" for c in df['Name'])
+d) df['Name_without_numbers'] = df['Name'].apply(lambda x: re.sub('\d', '', x))
+
+Question 25
+Which code will give pivot table for fg_apt with carrier and mean of usg_wac
+Options
+a) pd.pivot_table(df, index = 'fg_apt', columns = 'carrier', values = 'usg_wac')
+b) pd.pivot_table(df, 'fg_apt', columns = 'carrier', values = 'usg_wac')
+c) pd.pivot_table(df, index = 'fg_apt', columns = 'carrier', values = 'usg_wac', aggfunc = 'avg')
+d) pd.pivot_table(df, index = 'fg_apt', columns = 'carrier', values = 'usg_wac',aggfunc = 'average')
+
+Question 26
+Which code will give a pivot table for a neighbourhood with room_type and mean reviews_per_month
+Options
+a) pd.pivot_table(df,'neighbourhood' , values = 'reviews_per_month', columns = 'room_type')
+b) pd.pivot_table(df, index= 'neighbourhood' , values = 'reviews_per_month', columns = 'room_type')
+c) pd.pivot_table(df, values= 'neighbourhood' , index = 'reviews_per_month', columns = 'room_type')
+d) pd.pivot_table(df, value= 'neighbourhood' , index = 'reviews_per_month', column = 'room_type')
+
+Question 27
+Which code will do binning in Age column and then show count of the person in respective bin
+Options
+a) df['bins-age'] = pd.cut(df['Age'], bins = [0,20, 35, 50, 65, 80], labels = ['0-20', '20-35', '35-50', '50-65', '65+']) df.groupby('bins-age')['CustomerID'].count()
+b) df['bins-age'] = pd.cut(df['Age'], bins = [0,20, 35, 50, 65, 80,100], labels = ['0-20', '20-35', '35-50', '50-65', '65+']) df.groupby('bins-age')['CustomerID'].count()
+c) df['bins-age'] = pd.split(df['Age'], bins = [0,20, 35, 50, 65,80], labels = ['0-20', '20-35', '35-50', '50-65', '65+']) df.groupby('bins-age')['CustomerID'].count()
+d) df['bins-age'] = pd.range(df['Age'], bins = [0,20, 35, 50, 65,80], labels = ['0-20', '20-35', '35-50', '50-65', '65+']) df.groupby('bins-age')['CustomerID'].count()
+
+Question 28
+Which code will give the null value count of each row and get the top five rows that have the most count of null values?
+Options
+a) a = df.isnull().sum(axis = 1).sort_index(ascending = False)[:5].index df.iloc[a]
+b) a = df.isnull().sum(index = 1).sort_values(ascending = False)[:5].index df.iloc[a]
+c) a = df.isnull().sum(axis = 1).sort_values(ascending = False)[:5].index df.iloc[a]
+d) a = df.isnull().sum().sort_values(ascending = False)[:5].index df.iloc[a]
+
+Question 29
+Scenarios: Above is the weekly expiry option chain data. Traders do analysis around weekly expiry option chain for their next trade. Let�s say A trader come to you and he wants to automate some of the steps that he does every week manually. Please identify correct answers for the below questions based on the above scenario. Consider data above table is loaded into the pandas data frame df Q.3 Trader wants to know which strike price has the lowest call premium (Ltp_call)? Please select the correct answer?
+Options
+a) df.sort_values('Ltp_call').head(1)['STRIKE PRICE'].values()
+b) df.sort_values('Ltp_call').tail(1)['STRIKE PRICE'].values()
+c) df.sort_values('Ltp_call', ascending=False).tail(1)['STRIKE PRICE'].values()
+d) A and C
+
+Question 30
+Using groupby and aggregate funtion, which of the following codes will group 'Country' and aggregate 'Revenue' by sum and 'ProductNo' by count? We want to find out total revenue per country with total number of products sold.
+Options
+a) df.groupby('Country'){'Revenue' : sum(), 'ProductNo' : count()}
+b) df.groupby('Country').map({'Revenue' : 'sum', 'ProductNo' : 'count'})
+c) df.groupby('Country').apply({'Revenue' : 'sum', 'ProductNo' : 'count'})
+d) df.groupby('Country').agg({'Revenue' : 'sum', 'ProductNo' : 'count'})
+
+Question 31
+Which of the following two codes will First - Convert the column 'Date' from String to Datetime? Second - Change the Datetime format from 'YY-MM-DD HH:MM:SS' to '{HH:MM:SS}{YY-MM-DD}'? A.) df['Date'] = df['Date'].apply(lambda x: dt.strptime(x, '%Y-%m-%d %H:%M:%S')) df['Date'] = df['Date'].apply(lambda x: dt.strftime(x, '{%H:%M:%S}{%Y-%m-%d}')) B.) df['Date'] = df['Date'].apply(lambda x: dt.strptime(x, '%Y-%M-%d %H:%m:%S')) df['Date'] = df['Date'].apply(lambda x: dt.strftime(x, '{%H:%m:%S}{%Y-%M-%d}'))
+Options
+a) (A) is correct
+b) (B) is correct
+c) All of the above
+d) None of the above
+
+Question 32
+Which of the following codes will give you a count of unique values in the column 'modeldate'?
+Options
+a) df['modeldate'].unique().sum()
+b) df['modeldate'].nunique()
+c) len(df['modeldate'].unique())
+d) df['modeldate'].unique().count()
+
+Question 33
+Which of the following codes converts the datatype of columns 'pickup' and 'dropoff' from string to DateTime?
+Options
+a) df['pickup'] = df['pickup'].apply(lambda x: dt.strftime(str(x), '%Y-%m-%d %H:%m:%S')) df['dropoff'] = df['dropoff'].apply(lambda x: dt.strftime(str(x), '%Y-%m-%d %H:%m:%S'))
+b) df['pickup'] = df['pickup'].apply(lambda x: dt.strptime(str(x), '%Y-%m-%d %H:%M:%S')) df['dropoff'] = df['dropoff'].apply(lambda x: dt.strptime(str(x), '%Y-%m-%d %H:%M:%S'))
+c) None of the options
+d) a) df['pickup'] = df['pickup'].apply(lambda x: dt.strftime(str(x), '%Y-%m-%d %H:%M:%S')) df['dropoff'] = df['dropoff'].apply(lambda x: dt.strftime(str(x), '%Y-%m-%d %H:%M:%S'))
+b) 
+c) Question 34
+d) This data set contains details of employees of a company Find the running total of Salaries in each department
+Options
+a) df.groupby('Department')['Salary'].rolling(window=2).sum()
+b) df.groupby('Department')['Salary'].cumsum()
+c) df.groupby('Department')['Salary'].rolling().sum()
+d) Not Possible
+
+Question 35
+How to replace the missing value with mean only in �PetalWidthCm�?
+1- df["PetalWidthCm"] = df["PetalWidthCm"].fillna(round(df["PetalWidthCm"].mean(),2))
+2- df["PetalWidthCm"] = df["PetalWidthCm"].fillna(df["PetalWidthCm"].mean())
+3- df = df.fillna(df["PetalWidthCm"].mean())
+4- df = df.fillna(df.mean())
+Options
+a) Only 2 is correct
+b) 1 and 3 are correct
+c) 1 and 2 are correct
+d) All are correct
+
+Question 36
+Which of the following code is correct to subtract 100 MeetID in the column �MeetID� ?
+a. print([x - 50 for x in df['MeetID']])
+b. df['MeetID'].apply(lambda x: x-50)
+c. df['MeetID'] � 50 d. df.apply(lambda x: x['MeetID'] - 50, axis = 1)
+Options
+a) a,b,d are correct
+b) a,c,d are correct
+c) a,b,c are correct
+d) a,b,c,d are correct
+
+Question 37
+Using Multi-index group by, which of the following code will create a bar chart where 'network_type' and 'calldrop_category' are on the X-axis and count of 'operator' on Y-axis?
+Options
+a) df.groupby('network_type', 'calldrop_category')['operator'].count().plot(kind = 'bar')
+b) df.groupby('network_type', 'calldrop_category').agg({'operator' : 'mean'}).plot(kind = 'bar')
+c) df.groupby(['network_type', 'calldrop_category'])['operator'].count().plot(kind = 'bar')
+d) df.groupby('network_type', 'calldrop_category').agg({'operator' : 'count'}).plot(kind = 'bar')
+
+Question 38
+Below is the 15 days weather forecast for January month of Kolkata. Choose the correct code. Create a data frame to show only average Temperature for all categories of ‘Outlook’.
+Options
+a) df.groupby('Outlook').sum()
+b) pd.pivot_table(df, index='Outlook', values=['Temperature'], aggfunc=np.average)
+c) pd.pivot_table(df, index='Outlook', columns=['Temperature'], aggfunc=np.average)
+d) pd.pivot(df, index='Outlook', values=['Temperature'], aggfunc=np.average)
+
+Question 39
+Which formula can be used to create a new column which will segregate Employees in two categories- “Paid within market standards” and “underpaid”?
+Options
+a) =IF($F$2>=20000,"Paid within market standards","underpaid")
+b) =IF($F2>=20000,"Paid within market standards","underpaid")
+c) =IF(F2>=20000,"Paid within market standards","underpaid")
+d) =IF(F$2>=20000,"Paid within market standards","underpaid")
+
+Question 40
+Create a column Salary Band such that if the salary of the employee is above 75th percentile among all employee salaries, then Band = 'Executive'. If it is between median and 75th percentile, then Band = 'Senior' and below 50th Percentile Band is 'Associate.'
+Options
+a) IF(C2>PERCENTILE.INC($C$2:$C$13,0.75),"Executive",IF(C2>PERCENTILE.INC($C$2:$C$13,0.5), "Senior","Assoicate"))
+b) IF(C2>PERCENTILE.EXC($C$2:$C$13,0.75), "Executive",IF(C2>PERCENTILE.EXC($C$2:$C$13,0.5),"Senior","Assoicate"))
+c) IF(C2>PERCENTILE.INC(C2:C13,0.75), "Executive",IF(C2>PERCENTILE.INC(C2:C13,0.5), "Senior","Assoicate"))
+d) IF(C2>PERCENTILE.EXC(C2:C13,0.75), "Executive",IF(C2>PERCENTILE.EXC(C2:C13,0.5), "Senior","Assoicate"))
+
+Question 41
+Which of the following statement would result in 4 as an output? I.RIGHT(LEFT(OFFSET(C2,1,-1),2),1) II.CHAR(A4) III.LEN(A3) - LEN(A5)
+Options
+a) ONLY I & II ARE CORRECT
+b) ONLY I & III ARE CORRECT
+c) ONLY II & III ARE CORRECT
+d) None of the above
+
+Question 42
+Which of the following statement would result in True as output?
+Options
+a) EXACT(OFFSET(F2,2,3,),OFFSET(A2,4,5))
+b) EXACT(OFFSET(F3,2,3,),OFFSET(A3,4,5))
+c) EXACT(OFFSET(F4,2,3,),OFFSET(A4,4,5))
+d) EXACT(IFERROR(OFFSET(A10,-2,-3),"No"),OFFSET(A5,4,5))
+
+Question 43
+Which of the following statement would result in True as output?
+I.ISNONTEXT(IFERROR(OFFSET(A2,4,5),"TRUE"))
+II.ISTEXT(ISERR(MATCH(B5,B2:B6,0)))
+III.ISTEXT(VLOOKUP(A6,A2:D6,3,FALSE))
+Options
+a) ONLY I & II ARE CORRECT
+b) ONLY I & III ARE CORRECT
+c) ONLY II & III ARE CORRECT
+d) ALL ARE CORRECT
+
+Question 44
+Which of the following would result in the average sales amount for the LMN region only with 2 decimal places?
+Options
+a) ROUND(AVERAGEIF(C2:C10,C10,E2:E10),2)
+b) AVERAGE(ROUND(C2:C10,C10,E2:E10),2)
+c) AVERAGEIF(C2:C10,C10,E2:E10),ROUND(2)
+d) ROUND(AVERAGEIF(C2,C2:C10,E2:E10),2)
+
+Question 45
+Which of the following statement will return the value of "co" as output?
+Options
+a) SEARCH("co",E7)
+b) SEARCH("co",F5)
+c) LOWER(LEFT(F4,2))
+d) REPT(B7,3)
+
+Question 46
+Which of the following would result in the name whose income is the highest?
+Options
+a) INDEX(A2:A9,MATCH(MAX(C2:C9),C2:C9,0))
+b) INDEX(A2:A9,MATCH(MAX(C2:C9),C2:C9,1))
+c) INDEX(A2:A9,MATCH(MIN(C2:C9),C2:C9,0))
+d) INDEX(MATCH(MAX(C2:C9),A2:A9,C2:C9,0))
+
+Question 47
+"The research department of the company has developed a new catalytic convertor which should decrease the toxic chemicals in residue.
+The company has 20 testing vehicles and tests the new convertor on half of its testing vehicles. Use level of significance as 95%.
+The Automotive Regulator of a country has decided to reduce the permissible limit of toxic chemicals in the residue from 25 ppm to 20 ppm.
+Test observations of old and new converters are given below. "What is the test statistic for the test?
+Options
+a) 2.385
+b) 0.944
+c) 2.146
+d) 0.896
+
+Question 48
+Write a formula to make all the student names in synchronized proper format.
+Options
+a) UPPER(C2:C8)
+b) PROPER(C2:C8)
+c) PROPERCASE(C1:C7)
+d) CASE(C2:C8)
+
+Question 49
+Which of the following statement would result in the average salary for executive role?
+Options
+a) AVERAGEIF(C2:C6,"Executive",B2:B6)
+b) AVERAGEIF(B2:B6,C2:C6,"Executive")
+c) AVERAGEIF("Executive",B2:B6,C2:C6)
+d) None of the above
+
+Question 50
+Which of the following functions are case sensitive?
+1666070862_s161.png
+Options
+a) Trim
+b) Substitute
+c) Search
+d) Exact
+
+Question 51
+The total cost of the investment is $4000 and the return on each successful option is $1500. The client makes a loss overall. The probability that the client makes a loss overall
+Options
+a) 3/25
+b) 1/25
+c) 2/25
+d) 11/25
+
+Question 52
+The value of Var(X) is
+Options
+a) 9.24
+b) 9.1
+c) 8.3
+d) 7.6
+
+Question 53
+In a given university, the teachers and university authorities are interested in finding out the factors influencing the marks scored by a student. Question : What interpretation of ui in the regression model marks scored = bo + b1*minutes studied + b2*ability - b3*income + ui is correct?
+Options
+a) The ui term adds no information to the regression, and hence can be dropped from the model
+b) There might be many other factors affecting student marks, but they might be unobservable, this is captured by ui.
+c) The scatter-plot of ui with student marks should consist of randomly scattered points for the model to be correctly specified.
+d) Both II and III are correct
+
+Question 54
+In an examination consisting of multiple-choice questions, each question has four options, out of which one of them is correct. A student who has not prepared for the exam will just make a guess for the correct option. The test consists of 5 questions.
+Question: Assuming that there is no negative marking in the test, what might be the mean of the distribution of marks if we define success as getting an answer correct?
+Options
+a) 1.25
+b) 0.009
+c) 5
+d) 1
+
+Question 55
+A squad of 15 players has been selected for a tournament. The 15 member squad consists of 6 batsmen, 5 bowlers and 4 all-rounders.
+Question : If a team of 11 is to be chosen, what is the probability that all-allrounders and bowlers are part of the team?
+Options
+a) 11/15
+b) 15/1365
+c) 4/15
+d) 6/15
+
+Question 56
+Please refer to the table and answer the following question. Testing of hypotheses Ho : μ = 22 vs. H1 : μ < 22, is?
+Options
+a) One sided left tailed test
+b) One sided right tailed test
+c) Two tailed test
+d) None of these
+
+Question 57
+Please refer to the table and answer the following question. Interpret your results?
+Options
+a) Positive Correlation
+b) Negative Correlation
+c) High Negative Correlation
+d) None of these
+
+Question 58
+Please refer to the data and answer the following question. Assuming significance level at 5%, state the null and the alternate hypothesis.
+Options
+a) H0: r=0 H1: r>=0
+b) H0: r>0 H1: r<=0
+c) H0: r<=0 H1: r>0
+d) H0: r=0 H1: r ≠ 0
+
+Question 59
+Please refer to the table and answer the following question. The coefficient of determination is:
+Options
+a) Is maximized by ordinary least squares.
+b) Has a value between zero and one.
+c) Will generally increase if the additional independent variables are added to a regression analysis.
+d) All of the above are correct.
+
+Question 60
+Suppose a person audits 5% of all companies every year. Companies selected by him for auditing in any one year are independent of the previous year’s selection. Rejecting the null hypothesis, when it is true is called?
+Options
+a) Standard Error
+b) Type 1 error
+c) Type 2 error
+d) None of these

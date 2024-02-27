@@ -1,0 +1,350 @@
+Question 16
+Single Choice
+Report
+tuple_3 = 10, 100, 1000, 10000, 100000, 1000000 what is the result for: print(tuple_3[1:4:2])
+Options
+
+(100, 1000)
+
+(100, 10000)
+
+(10000, 100000, 1000000)
+
+(10, 100, 1000)
+
+Question 17
+Single Choice
+Report
+example = (0,1,2,3,4,5,1,2,1) What is the result for : print(example.count(1)) print(example.index(1))
+Options
+
+3,1
+
+1,3
+
+1,1
+
+3,3
+
+Question 18
+Single Choice
+Report
+capitals = {'Maharashtra':'Mumbai', 'Tamil Nadu':'Chennai'} capitals['Rajasthan']='Jaipur' capitals.update({'Punjab' : 'Chandigarh'}) what is the result for: print(capitals) print(len(capitals))
+Options
+
+{'Maharashtra', 'Mumbai', 'Tamil Nadu','Chennai', 'Rajasthan', 'Jaipur', 'Punjab', 'Chandigarh'} 4
+
+{'Maharashtra', 'Mumbai', 'Tamil Nadu','Chennai', 'Rajasthan': 'Jaipur', 'Punjab': 'Chandigarh'} 2
+
+{'Maharashtra', 'Mumbai', 'Tamil Nadu','Chennai', 'Rajasthan': 'Jaipur', 'Punjab': 'Chandigarh'} 8
+
+{'Maharashtra': 'Mumbai', 'Tamil Nadu': 'Chennai', 'Rajasthan': 'Jaipur', 'Punjab': 'Chandigarh'} 4
+
+Question 19
+Single Choice
+Report
+name = "ReLevel" what would be result for : print(set(name))
+Options
+
+{'e', 'i', 'v', 'r', 'l'}
+
+{'E', 'I', 'V', 'R', 'L'}
+
+{'R', 'e', 'v', 'L', 'l'}
+
+{'l', 'e', 'v', 'L', 'R'}
+
+Question 20
+Single Choice
+Report
+X = ['A','B','A','C','D','C','C','B'] What would be the expression to get result for:- {'C', 'B', 'D', 'A'}
+Options
+
+print(set(X))
+
+print(nondup(X))
+
+print(unique(X))
+
+print((X)-(X))
+
+Question 21
+Single Choice
+Report
+l = [5, 1, 7, 3] sum = 0 for v in l: sum = sum + v print("Sum is ", sum)
+Options
+
+5173
+
+16
+
+Error
+
+0
+
+Question 22
+Single Choice
+Report
+n=[1,2,3,4,5] elements = [5,10] for item in elements: print("multiply ",item," with integer from 1 to 5) for i in number: print (item*i)
+Options
+
+multiply 5 with integer from 1 to 5 5 10 15 20 25 multiply 10 with integer from 1 to 5 10 20 30 40 50
+
+Error due to multi tuple multiplication
+
+Error as both list are not of same elements
+
+Exception error
+
+Question 23
+Single Choice
+Report
+Which of the following is the correct syntax for the if statement?
+Options
+
+if test expression: statement
+
+if test expression: multiple statements
+
+if (test expression): statement
+
+All of the above
+
+Question 24
+Single Choice
+Report
+What is the output of the following code? a=10 if a<0: print( "a is negative”) print(a)
+Options
+
+10
+
+a is negative 4
+
+a is negative
+
+None of the above
+
+Question 25
+Single Choice
+Report
+What is the output of the following code? word = "Relevel" for letter in word: if letter=="v": break print( letter)
+Options
+
+R e l e v e l
+
+R e l e
+
+R
+
+R e l e e l
+
+Question 26
+Single Choice
+Report
+Predict the output of following code: for word in "Python Program": if word == "P": continue print (word, end='')
+Options
+
+Python Program
+
+ython rogram
+
+Python
+
+P P
+
+Question 27
+Single Choice
+Report
+Which statement terminates the current loop and moves on to the next code block.
+Options
+
+exit
+
+break
+
+move
+
+pass
+
+Question 28
+Single Choice
+Report
+The continue statement can be used in?
+Options
+
+while loop
+
+for loop
+
+nested for loop
+
+All of the above
+
+Question 29
+Single Choice
+Report
+Which of the following keywords marks the beginning of the user-defined function?
+Options
+
+def
+
+func
+
+function
+
+define
+
+Question 30
+Single Choice
+Report
+What will be the output of the given code? def give_user_details(age, name="Arnav"): print( "user age is : " + str(age) + " and name is: "+name) give_user_details(10,"varnika")
+Options
+
+user age is : 10 and name is: varnika
+
+user age is : 10
+
+error : name not defined
+
+user age is : 10 and name is: Arnav
+
+
+Question 31
+Single Choice
+Report
+What will this code print? from random import randint for i in range(5): print(random(1, 5))
+Options
+
+Five random numbers in the range 1 to 4
+
+Five random numbers in the range 1 to 5
+
+This code raises an exception
+
+Five random integers in the range 1 to 4
+
+Question 32
+Single Choice
+Report
+What's the output of the following code? func = lambda a: ret a print(func(5))
+Options
+
+5
+
+4
+
+0
+
+Syntax error
+
+Question 33
+Single Choice
+Report
+What will be the output of the following code? x = "relevel" print(list(map(list,x)))
+Options
+
+['relevel']
+
+[ [r], [e], [l], [e], [v], [e], [l] ]
+
+[ 'r', 'e', 'l', 'e', 'v', 'e', 'l' ]
+
+none of the above
+
+Question 34
+Single Choice
+Report
+Which is an in-built function that extracts items from a given sequence based on whether a condition is true or not.
+Options
+
+reduce
+
+map
+
+filter
+
+def
+
+Question 35
+Single Choice
+Report
+a=1 def func(a): return a**2 a = func(a)**2 print(func(a))
+Options
+
+1
+
+2
+
+4
+
+16
+
+Question 36
+Single Choice
+Report
+count = 0 while(True): if count % 3 == 0: print(count, end = " ") if(count > 15): break; count += 1
+Options
+
+0 1 2....... 15
+
+Infinite loop
+
+0 3 6 9 12 15
+
+0 3 6 9 12
+
+Question 37
+Single Choice
+Report
+def solve(a, b): return b if a == 0 else solve(b % a, a) print(solve(20, 50))
+Options
+
+10
+
+20
+
+50
+
+1
+
+Question 38
+Single Choice
+Report
+def func(): global value value = "Local" value = "Global" func() print(value)
+Options
+
+Local
+
+Global
+
+None
+
+Cannot be predicted
+
+Question 39
+Single Choice
+Report
+Which of the following statements are used in Exception Handling in Python?
+Options
+
+try
+
+except
+
+finally
+
+All of the above
+
+Question 40
+Single Choice
+Report
+What is the output of the following code? val = 154 while(not(val)): val**=2 else: val//=2 print(val)
+Options
+
+154
+
+11858
+
+77
+
+23716

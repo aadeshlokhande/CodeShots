@@ -1,0 +1,457 @@
+Question 2
+The total age of three friends, Abhishek, Avantika and Abhilash, is 93 years. If their age ratio ten years back was 2:3:4, find Abhilash's present age.
+a) 30 Years
+b) 34 Years
+c) 38 Years
+d) 39 Years
+Answer = c
+
+Question 3
+Rakhi and Reshma are playing badminton. They use pristine shuttlecock to play badminton. What shape does the shuttlecock has?
+a) A hemisphere and frustum of a cone
+b) A sphere and a cone
+c) A cuboid and a cone
+d) A cylinder and a hemisphere
+Answer = a
+
+Question 4
+Kaushik is as much older than Akash as he is younger than Bhumi. If the average age of Akash and Bhumi is 25 years, find Kaushik's age 3 years from now.
+a) 26 years
+b) 28 years
+c) 20 years
+d) 21 years
+Answer = 
+
+Question 10
+If X+Y+XY=97, Find the values of X and Y.
+a) 13,6
+b) 14,7
+c) 17,4
+d) 16,3
+Answer = a
+
+Question 11
+Rajeev owns a farm at the edge of his village, containing ducks and cows. One day, he counts the number of animal heads on his farm to 28 and the number of legs to be 88. Find the number of ducks on the farm.
+a) 10
+b) 15
+c) 12
+d) 18
+Answer = c
+
+Question 12
+A man starts from his home towards his office at a speed of 5 m/s. After every 10 minutes, he increases his speed by 5 m/s and thus reaches the office after 1 hour. What is the distance between his home and his office?
+a) 126 km
+b) 36 km
+c) 63 km
+d) 54 km
+Answer = a
+
+Question 13
+Adil can do 3/fifth of work in 15 days. Proficiency of Bhau is 25% more than that of Adil. Both Adil and Bhau began cooperating and left the work following five days. Champu finished the excess work in 11 days. Productivity of Champu is the thing that percent more not exactly that of Adil ?
+a) 15% more
+b) 30% more
+c) 25% more
+d) 50% more
+Answer = 
+
+Question 14
+Let N= 101! Find the remainder when N is divided by 103.
+a) 101
+b) 1
+c) 102
+d) 2
+Answer = 
+
+Question 15
+How many kgs of flour worth Rs. 25 per kg must be blended with 30 kgs of flour worth Rs. 30 per kg so that by selling the blended variety at Rs. 30 per kg there should be a gain of 10%?
+a) 32 kg
+b) 40 kg
+c) 36 kg
+d) 42 kg
+Answer = 
+
+Question 16
+Meena builds a circular swimming pool of radius 5 m inside a circular garden of radius 12 m. In order to compensate the area covered due to construction of pool, she extends the radius by 'r' metres keeping the garden still circular. What is the value of r?
+a) 1/2 m
+b) 2 m
+c) 1 m
+d) 4 m
+Answer = 
+
+Question 17
+How many kg of sugar costing Rs. 57.5 per kg should be mixed with 75 kg of cheaper sugar costing Rs. 45 per kg so that the mixture is worth Rs. 55 per kg?
+a) 350 kg
+b) 300 kg
+c) 50 kg
+d) 325 kg
+Answer = 
+
+Question 18
+Which of the following cannot be the square of a natural number?
+a) 32761
+b) 81225
+c) 42437
+d) 20164
+Answer = c
+
+Question 19
+On a dairy farm, 22 cows eat 22 bags of husk in 22 days. In how many days can one cow eat one bag of husk?
+a) 21
+b) 20
+c) 22
+d) 23
+Answer = 
+
+Question 20
+A and B working together can complete a piece of work in 12 days. B and C working together can complete the same work in 16 days. A worked at it for 5 days and B worked at it for 7 days. C finished the remaining work in 13 days. How many days would C alone take to complete it?
+a) 32
+b) 24
+c) 10
+d) 40
+Answer = 
+
+Questions 21
+The table shows data of text and reference books sales for various categories. Calculate the total sales of Management books from 1995 to 2000?
+a) 240976
+b) 241976
+c) 241796
+d) 240796
+Answer = 
+
+Question 22
+The table shows the amount of production (in kg) of rice, wheat and millets in India. Observe the table and answer the questions. 
+What is the average production of rice in the year 2001, 2004 and 2005?
+a) 41600.566
+b) 41166.666
+c) 41666.666
+d) 41666
+Answer = 
+
+Question 23
+A 450-m long train is running with a speed of 67 kmph. In what time will it pass a man who is running at 7 kmph in the same direction in which the train is going?
+a) 18 seconds
+b) 27 seconds
+c) 36 seconds
+d) 30 seconds
+Answer = 
+
+Question 24
+The table shows data of text and reference books sales for various categories. Calculate the approximate percentage decrease in sales of Schools books from 1997 to 1998?
+a) 2%
+b) 3%
+c) 1%
+d) 4%
+Answer = 
+
+Question 25
+The table shows bowling figures in a one-day match between India and Bangladesh. There are six balls in an over which is considered legal (excluding no balls and wides). If a bowler ball is a no-ball or a wide then it will be counted as runs given by a bowler.
+Among Bangladesh bowlers who bowled the maximum overs, who conceded the most runs per over?
+a) Baishya
+b) Rafique
+c) Mahmood
+d) Rahman
+Answer = 
+
+Question 26
+The table shows consumer's movie watching habits in different asian countries(per month). Which country has the highest percentage of its total movie goers thrice a month?
+a) India
+b) Nepal
+c) Pakistan
+d) Sri Lanka
+Answer = 
+
+Question 27
+The table shows data of text and reference books sales for various categories.
+Calculate the percentage increase in sales of Schools books from 1996 to 1997?
+a) 6%
+b) 7%
+c) 8%
+d) 9%
+Answer = 
+
+Question 28
+If the person gains the selling price of 12 bananas by selling 42 bananas then what will be the gain percent?
+a) 28.57%
+b) 22.22%
+c) 40%
+d) 30%
+Answer = 
+
+Question 29
+The following graph shows the number of families living in four locations, namely A, B, C, D and how the number has increased over the years: What is the difference between the number of families living in D in 2003 and 2004?
+a) 16
+b) 14
+c) 20
+d) 18
+Answer = 
+
+Question 30
+The following table shows the number of units of four products - A, B, C, D that have been produced in a factory over four months: What is the total number of units produced in February?
+a) 7112
+b) 7893
+c) 7232
+d) 7635
+Answer = 
+
+Question 31
+The table shows the amount of production (in kg) of rice, wheat and millets in India. Observe the table and answer the questions. How much percent more wheat production by government in the year 2003 as compared to 2002?
+a) 30%
+b) 20%
+c) 12.50%
+d) 38.40%
+Answer = 
+
+Question 33
+The table shows data on bank lending. For which year the consumer price index of agricultural loans was highest?
+a) 1990
+b) 1992
+c) 1994
+d) 2003
+Answer = 
+
+Question 34
+The length of a rectangle is twice its breadth. If its length is decreased by 8 cm and breadth is increased by 8 cm, the area of the rectangle is increased by 104 sq. cm. Find the length of the rectangle.
+a) 21 cm
+b) 42 cm
+c) 40 cm
+d) 29 cm
+Answer = 
+
+Question 35
+The following graph shows the number of families living in four locations, namely A, B, C, D and how the number has increased over the years: In which year were 58 families residing in B?
+a) 2002
+b) 2003
+c) 2004
+d) 2005
+Answer = 
+
+Question 36
+The table shows data of text and reference books sales for various categories. Calculate the percentage increase in sales of engineering books from 1999 to 2000?
+a) 12%
+b) 13%
+c) 14%
+d) 15%
+Answer = 
+
+Question 37
+The following graph shows the exports (in Rs. crores) done by three companies over the years: What was the percentage (approx) of exports made by company Y out of the total export made by all the companies in 1997?
+a) 32
+b) 30
+c) 28
+d) 35
+Answer = 
+
+Question 38
+The table shows data of text and reference books sales for various categories. Calculate the total sales of Medical books from 1995 to 1996?
+Options
+a) 154384
+b) 155384
+c) 156384
+d) 157384
+Answer = 
+
+Question 39
+The table shows bowling figures in a one day match between India and Bangladesh. There are six balls in an over which is considered legal(excluding no balls and wides). If a bowler balls a no ball or a wide then it will be counted as runs given by a bowler. What is the total number of runs conceded by Bangladesh bowlers?
+Options
+a) 229
+b) 239
+c) 249
+d) 219
+Answer = 
+
+Question 40
+The following graph shows the number of families living in four locations, namely A, B, C, D and how the number has increased over the years: Which city had 66 families in 2005?
+Options
+a) A
+b) B
+c) C
+d) D
+Answer = 
+
+Question 41
+Rani starts walking 12m southwards. Now, he walked 10 and 15m respectively by two consecutive right turns and reached point C. Now, he moves westwards and walks 20m to reach point D. Point D is in which direction of Rani’s starting point?
+Options
+a) South
+b) South-East
+c) North-West
+d) West
+Answer = 
+
+Question 42
+Point M is 12m north of point I. Point Z is 8m north of point P. Point A is 10m north of point B. Point A is 14m south of point O. Point I is 20m east of point A. Point V is 6m west of point I. Point P is 12m west of point M. Find the odd one.
+Options
+a) B, V
+b) A, Z
+c) V, M
+d) P, B
+Answer = 
+
+Question 43
+From B, Ravi starts 40m travel towards the east direction to reach point J. Then, he turned left and walked 30m to reach point Z. Then, he moved east side to reach point U after 60m. At last, he moved right direction by 24m to reach point X. If point Q is 30m north of point B, what is the distance between U and Q?
+Options
+a) 90m
+b) 120m
+c) 115m
+d) 100m
+Answer = 
+
+Question 44
+Consider the following data Element & B A % D E # N O @ Symbol 3 9 1 4 2 0 7 5 6 8 Condition:
+1. If the first element is a vowel and the last element is a symbol, then the codes of both the elements are interchanged.
+2. If the first element is a consonant and the last element is a vowel, then the codes of all the elements are to be reversed in order.
+3. If both the first and the last elements are symbols, then both the elements are to be coded as the code of the first symbol.
+4. If both the first and the last elements are consonants, then both the elements are to be coded as the code of the last letter.
+Each element is denoted by a number, as shown above. Further, consider the given conditions and answer the questions accordingly for a given element: ADO&@
+Options
+a) 82638
+b) 86231
+c) 12631
+d) 86232
+Answer = 
+
+Question 45
+Consider the alphanumeric string given below consisting of letters, numbers and symbols and answer the questions that follow based on the string. 4 μ 5 C => H A N 6 G -> 1 7 E Y 9 T S ↑ P 8 K ₹ V 3 How many such letters are there which are immediately preceded by a number and immediately followed by a symbol?
+Options
+a) One
+b) Three
+c) None
+d) Two
+Answer = 
+
+Question 46
+In a certain code language, “path discover true potential” is coded as “r6 5a d2 9b” “light material heavy weight” is coded as “6j n5 l7 t9” “true reason light home” is coded as “n5 u8 4s r6” “discover home material there” is coded as “K3 4s 9b l7” What is the code for the word “light”?
+Options
+a) t9
+b) n5
+c) I7
+d) u8
+Answer = 
+
+Question 47
+The questions below consist of a question and two statements I and II given below. Six boys in a locality were born on different days of a year. The months in which they were born were May, June and July, and the dates were 19 and 24 of these months. L and U were born on the same dates. V was born on the 24th of a month with 31 days. T was born after K.
+I. L was born in July. T was born on the 24th of a month.
+II. R was born before V in the same month. U was born on 19th June.
+How many people were born after V? Read both the statements and mark your answer as:
+Options
+a) If the data in statement I alone is sufficient to answer the question, while the data in statement II alone is not sufficient to answer the question.
+b) If the data in statement II alone is sufficient to answer the question, while the data in statement I alone is not sufficient to answer the question.
+c) If the data given in both statements I and II together is not sufficient to answer the question.
+d) If the data in both statements I and II together are necessary to answer Answer = 
+the question.
+
+Question 48
+Six people, P, Q, R, X, Y and Z are sitting on either sides of a table that fit 3 on each side, each side facing the other. Y is not at the end of any row. X is second to the left of Z. R, the neighbor of Y, is sitting in the direction diagonally opposite to X. Q is the neighbor of Z. i) Who is sitting diagonally opposite to P?
+Options
+a) R
+b) P
+c) X
+d) Z
+Answer = 
+
+Question 49
+A is B’ son. B is C’s father. D is C’s sister. How is D related to B?
+Options
+a) Sister
+b) Cousin
+c) Daughter
+d) Aunt
+Answer = 
+
+Question 50
+Eight people, A, B, C, D, E, F, G and H, are sitting around a rectangular table not in the same order necessarily. One person sits along the shorter side, and three persons sit along the longer side... A and G are sittings diagonally opposite to each other. D and E are sitting opposite each other. A is sitting to the immediate left of F, who is sitting at one of the shorter sides of the table. If H is not sitting at one of the shorter sides, then how many arrangements are possible?
+Options
+a) 24
+b) 8
+c) 4
+d) 16
+Answer = 
+
+Question 51
+Anupam, Pujara, Shami, Rishabh, Mritunjay, Goofey and Yogyata are standing around a circle facing the centre. Anupam is the 3rd to the left of Yogyata and to the immediate right of Rishabh. Pujara is 2nd to the left of Goofey who is not an immediate neighbour of Mritunjay. Considering above information which person is standing immediate left of Pujara?
+Options
+a) Mritunjay
+b) Shami
+c) Yogyata
+d) Cannot be determined
+Answer = 
+
+Question 52
+There are ten friends named p,q,r,s,t,u,v,w,x,y. all are facing towards west · Q and u are not sitting on either of the edges · V is sitting towards left of s and w is sitting towards right of y · Between t and p there are four persons sitting · X is sitting towards north of q and u is sitting towards south of s · In between p and s y is sitting and v is in t and u · Between h and c there are two persons Answer the following- If v and p interchange their positions then who will be the immediate neighbors of t ?
+Options
+a) Only p
+b) Only r
+c) Only y
+d) Only u
+Answer = 
+
+Question 53
+Priya started walking from her home towards the west direction, and after a distance of 9m, she stopped at point A. Now, she turned left and walked 18m to reach point B. Then finally, she moved east and walked a distance of 15m to reach point C. If Priya’s gym is 10m west of point B, what is the distance between Priya’s gym and point C?
+Options
+a) 22m
+b) 38m
+c) 32m
+d) 25m
+Answer = 
+
+Question 54
+If K is the sister of the son of G’s son, how is G related to K?
+Options
+a) Son
+b) Father
+c) Grandfather
+d) Can’t be determined
+Answer = 
+
+Question 55
+Eight people, A, B, C, D, E, F, G and H, are sitting around a rectangular table not necessarily in the same order. One person sits along the shorter side, and three persons sit along the longer side... A and G are sittings diagonally opposite to each other. D and E are sitting opposite each other. A is sitting to the immediate left of F, who is sitting at one of the shorter sides of the table. If C is sitting to the immediate right of H, then who is sitting opposite to F?
+Options
+a) B
+b) C
+c) H
+d) D
+Answer = 
+
+Question 56
+Y has only two children. J is the brother of R. R is the daughter of P. A is the granddaughter of P. Y is the father of J. S is the father of A. How is S related to J?
+Options
+a) Brother-in-law
+b) Brother
+c) Son
+d) Son-in-law
+Answer = 
+
+Question 57
+A, N, O, P and Q are sitting in a line facing east. A and N are sitting together. O is sitting at the south end. Q is a neighbour of N and O. Who is sitting at the north end?
+Options
+a) Q
+b) O
+c) N
+d) P
+Answer = 
+
+Question 58
+Eight people viz. L, M, N, O, W, X, Y and Z are sitting around a rectangle table. One person is sitting at each corner, and one person is sitting at the middle of each side. The persons sitting at the corners face outwards while the ones sitting at the middle of the sides face inwards. Where L is not M’s neighbour, W and L are not facing the same direction. O, who is not sitting adjacent to N, is facing the same direction as M. Three people are sitting between L and X, where X is Z’s neighbour. N is sitting third to the left to the left of M. Only one person is sitting between W, and O. N is sitting along the longer side of the table. Who among the following is/are facing inwards?
+Options
+a) L
+b) W
+c) Both option Y and L
+d) Y
+Answer = 
+
+Question 59
+Who is the son of my daughter’s husband
+Options
+a) Brother-in-law
+b) Grand child
+c) Great grand child
+d) Grand son
+Answer = 
+
+Question 60
+Introducing a girl, Kanak says, "She is the wife of the brother of my grandmother". How is the girl related to Kanak?
+Options
+a) Grand daughter
+b) Grand mother
+c) Grandson
+d) Daughter
+Answer = 

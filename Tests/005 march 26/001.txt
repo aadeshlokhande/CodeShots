@@ -1,0 +1,194 @@
+Question 36
+The following graph shows the exports (in Rs. crores) done by three companies over the years: What was the average amount of exports made by company X across all the years?
+Option:-> 53
+Option:-> 41
+Option:-> 38
+Option:-> 46
+
+Question 37
+The table shows consumer's movie watching habits in different asian countries(per month). Which country has maximum number of watchers who watched thrice in a month?
+Option:-> India
+Option:-> Nepal
+Option:-> Pakistan
+Option:-> Sri Lanka
+
+Question 38
+The table shows data on bank lending. Calculate the value of agricultural loans in 2003 at 1990 prices?
+Option:-> Rs 326 million
+Option:-> Rs 264 million
+Option:-> Rs 305 million
+Option:-> Cannot be determined
+
+Question 39
+The table shows key financials data of selected private sector banks. ICICI bank figures relate to 2003-04. All other figures relate to 2002-03. Dep - Deposit(Rs crore), NP - Net Profit(Rs crore), Adv - Advance(Rs crore), EPS - Earnings per share Rs, Res - Reserve(Rs crore), CMP - Current market price Rs, Eq - Equity(Rs crore), P/E - Price earnings ratio. Which bank has the lowest Equity?
+Option:-> UTI bank
+Option:-> HDFC bank
+Option:-> Citi bank
+Option:-> Stanchart
+
+Question 40
+The following graph shows the number of copies of a book sold by two bookstores at different locations every month over five months: What is the difference between the number of copies sold by store A in June and August?
+Option:-> 100
+Option:-> 200
+Option:-> 50
+Option:-> 150
+
+Question 41
+Sudhir invested 30% of the amount with him in shares,25% of the amount in NSCs, 50% of the remaining amount in FDs and the rest in land. At the end of the first year, the value of his shares increased by 20%, NSCs gave him a tax free return of 5%, FDs gave him a return of 5% but he had to pay a tax of 10% on the interest while the land prices appreciated by 15%. In the second year, as there was a slow down in the market, the value of his shares decreased by 10% while NSCs gave him an interest free returns of 4%. FDs too gave him a return of 4% but he had to pay a tax of 20% on the interest and the land prices appreciated by 4% and became ₹8,61,120. What was the total returns obtained by him from NSCs by the end of the second year?
+Option:-> ₹ 73,660
+Option:-> ₹ 75,800
+Option:-> ₹ 77,400
+Option:-> ₹ 79,200
+
+Question 42
+Eight people A, B, C, D, E, F, G and H live in a four floored building numbered 1-4 from bottom to top. The building has two flats on each floor numbered 1 and 2 such that flat '1' is to the west of flat '2'. Everyone lives in a different flat. D does not live on floor 1. F lives in a flat to the west of C's flat. E, who lives in a flat to the east of A's flat, lives immediately below B's floor. A and D live in the same numbered flat. D and G live on the same floor. B lives in an even-numbered flat on the odd-numbered floor. Who among the following does not live in flat "2"?
+Option:-> C
+Option:-> G
+Option:-> B
+Option:-> A
+
+Question 42
+Eight people A, B, C, D, E, F, G and H live in a four floored building numbered 1-4 from bottom to top. The building has two flats on each floor numbered 1 and 2 such that flat '1' is to the west of flat '2'. Everyone lives in a different flat. D does not live on floor 1. F lives in a flat to the west of C's flat. E, who lives in a flat to the east of A's flat, lives immediately below B's floor. A and D live in the same numbered flat. D and G live on the same floor. B lives in an even-numbered flat on the odd-numbered floor. Who among the following does not live in flat "2"?
+Option:-> C
+Option:-> G
+Option:-> B
+Option:-> A
+
+Question 43
+Atmaram, Pihu, Shane, Rasika, Milan, Gangadhar and Yogesh are standing around a circle facing the centre. Atmaram is the 3rd to the left of Yogesh and to the immediate right of Rasika. Pihu is 2nd to the left of Gangadhar who is not an immediate neighbour of Milan. Considering above information which person is standing 2nd to the right of Rasika?
+Option:-> Atmaram
+Option:-> Milan
+Option:-> Pihu
+Option:-> Shane
+
+Question 44
+Rajat starts walking in the north direction, and after a distance of 20m, he turns right and covers a distance of 15m to reach point A. Now, he takes two consecutive left turns and covers a distance of 7m and 9m respectively to reach his office. Point A is in which direction of Rajat’s office?
+Option:-> South-North
+Option:-> West
+Option:-> South-East
+Option:-> East
+
+Question 45
+A certain number of people face north and sit in a line. J sits seven places away from Z. At least four people sit between P and G. P sits six places away from L. Not more than six people are sitting between H, and J. Z sits five places away from H. G sits second to the right of L. H sits immediate right of P. How many people are sitting in this arrangement?
+Option:-> 15
+Option:-> 14
+Option:-> 13
+Option:-> 11
+
+Question 46
+Anandi, Bevan, Colin, Denis, Elvis, Fahad, Gustavo and Hemlata are standing around a circle, facing the centre. Anandi is standing 4th to the right of Hemlata while 2nd to the left of Fahad. Colin is not the neighbour of Fahad and Bevan. Denis stands 3rd to the right of Colin. Hemlata never stands next to Gustavo Out of the following which one is the standing position of Fahad with respect to Elvis?
+1. 2nd to the right
+2. 6th to the left
+3. 3rd to the left
+4. 5th to the right
+Option:-> Only 2
+Option:-> Only 2 and 3
+Option:-> Only 1 and 4
+Option:-> Both 3 and 4
+
+Question 47
+Study the following arrangement carefully and answer the questions given below. In certain coded language some statements are coded as follows: Is Known For that is coded >> ## !! ?? Well known person is coded as << ?? ++ That person was there is coded as !! xx ** << There is need is coded as >> [[ xx What is the code for ‘person’?
+Option:-> **
+Option:-> ??
+Option:-> <<
+Option:-> !!
+
+Question 48
+A certain number of people face north and sit in a straight line. At most six people are sitting to the left of F. S sits third from one of the ends. Two people are sitting between L, and S. D sits third to the right of P. Four people are sitting between R and F. Six people are sitting between F and S. More than two people are sitting between S and D. Five people are sitting between D and L. How many people are sitting in this arrangement?
+Option:-> 16
+Option:-> 17
+Option:-> 15
+Option:-> 18
+
+Question 49
+Anushka, Prakhar, Sanjay, Rajbir, Multan, Gyan and Yojgar are standing around a circle facing the centre. Anushka is the 3rd to the left of Yojgar and to the immediate right of Rajbir. Prakhar is 2nd to the left of Gyan who is not an immediate neighbour of Multan. Considering above information which of the following pairs has the 1st person standing immediate right of the 2nd person?
+Option:-> Rajbir-Multan
+Option:-> Anushka-Gyan
+Option:-> Sanjay-Prakhar
+Option:-> None of these
+
+Question 50
+Kanak walked 60 metres towards the North, took a left turn and walked 25 metres. She again took a left turn and walked 50 metres. In which direction is she from the starting point?
+Option:-> South-east
+Option:-> North-east
+Option:-> South
+Option:-> East
+
+Question 51
+Anupam, Pujara, Shami, Rishabh, Mritunjay, Goofey and Yogyata are standing around a circle facing the centre. Anupam is the 3rd to the left of Yogyata and to the immediate right of Rishabh. Pujara is 2nd to the left of Goofey who is not an immediate neighbour of Mritunjay. Considering above information which person is standing 2nd to the right of Rishabh?
+Option:-> Anupam
+Option:-> Mritunjay
+Option:-> Pujara
+Option:-> Shami
+
+Question 52
+Amul, Bipendra, Chitra, Dhritrashtra, Enqar, Fehrosh, Gajni and Himmat are standing around a circle, facing the centre. Amul is standing 4th to the right of Himmat while 2nd to the left of Fabain. Chitra is not the neighbour of Fehrosh and Bipendra. Dhritrashtra stands 3rd to the right of Chitra. Himmat never stands next to Gajni Who is standing immediate left of Amul?
+Option:-> Chitra
+Option:-> Dhritrashtra
+Option:-> Gajni
+Option:-> Data Inadequate
+
+Question 53
+Anupam, Pujara, Shami, Rishabh, Mritunjay, Goofey and Yogyata are standing around a circle facing the centre. Anupam is the 3rd to the left of Yogyata and to the immediate right of Rishabh. Pujara is 2nd to the left of Goofey who is not an immediate neighbour of Mritunjay. Considering above information which of the following is the correct standing position of Anupam with respect to Pujara?
+1. 2nd to the left
+2. 3rd to the left
+3. 5th to the right
+4.4th to the right
+Option:-> 1 only
+Option:-> 2 only
+Option:-> Both 1 and 2
+Option:-> Both 1 and 3
+
+Question 54
+Tara starts walking eastwards, a distance of 20m to reach point A. Now, she moved south and covered a distance of 14m to reach point B. She then moved east side and covered a distance of 20m to reach point C. Point A is in which direction of point C?
+Option:-> East
+Option:-> North
+Option:-> South-East
+Option:-> North-West
+
+Question 55
+Six persons are sitting in a linear row facing south. Six other persons are sitting in another linear row facing North. Each person of a row is facing a person from the other row. G is sitting at one of the ends. N is sitting third to the left of the person facing G. O is sitting second to the left of N. Three persons are sitting in between H and O. H is facing Q. P is sitting third to the right of Q. One person is sitting in between M, and P. S is an immediate neighbour of M. Three persons are sitting between T, and C. E is sitting second to the right of T. Y is facing North. Who is facing P?
+Option:-> E
+Option:-> T
+Option:-> M
+Option:-> C
+
+Question 56
+A wall clock shows 3:30pm, if the long hand is at north direction then what would be the direction of the short hand?
+Option:-> North-East
+Option:-> North-West
+Option:-> South-North
+Option:-> South-West
+
+Question 57
+Anika walks 10 km towards the south. From there, she walks 18 km towards the east. Then, she walks 5 km towards the south. Finally, she walks 18 km towards the east. How far is she from her starting point?
+Option:-> 5km
+Option:-> 6.5 km
+Option:-> 6km
+Option:-> 5.5km
+
+Question 58
+Six people, namely P, Q, R, S, T and U, are sitting in a row facing North. Further, it is known that:
+(i) Exactly two people are sitting between P and Q.
+(ii) Exactly one person is sitting between T and U.
+(iii) Q is sitting at the right end of the row. If U is sitting adjacent to S, then how many people are sitting between U and R?
+Option:-> One
+Option:-> Two
+Option:-> Three
+Option:-> Cannot be determined
+
+Question 59
+Introducing a boy, Naman said, “He is the son of the brother of my mother’s sister”. How is that boy related to Naman?
+Option:-> Brother
+Option:-> Son
+Option:-> Cousin
+Option:-> Grandson
+
+Question 60
+Pointing to a boy in the photograph, Ram said, ‘‘His mother’s brother is the only son of my mother’s father". How is the boy’s mother related to Ram?
+Options
+Option:-> Sister
+Option:-> None of these
+Option:-> Aunty
+Option:-> Mother
+

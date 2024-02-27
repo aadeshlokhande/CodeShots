@@ -1,0 +1,31 @@
+Boy: Hey, I heard you're involved with ICE Computers, the computer education institute. Tell me more!
+
+Girl: Yes, that's right! ICE Computers offers courses on programming, web development, data science, and more.
+
+Boy: That's cool! How did you get involved with ICE Computers?
+
+Girl: I've always been passionate about technology, and I joined ICE Computers to help others gain valuable computer skills.
+
+Boy: That's great! What courses does ICE Computers offer, and who are they for?
+
+Girl: ICE Computers offers courses for kids, beginners, and professionals on various topics like programming, web development, cybersecurity, and AI.
+
+Boy: Impressive! What impact has ICE Computers made so far?
+
+Girl: Many students from ICE Computers have gone on to successful tech careers or started their own businesses.
+
+Boy: That's awesome! Any upcoming events or plans at ICE Computers?
+
+Girl: Yes, we have plans to introduce new courses and organize coding competitions and hackathons to foster innovation and collaboration among our students.
+
+Boy: Exciting! How can someone contact ICE Computers for more information?
+
+Girl: You can visit our website at ice.sampurv.in or contact us at 96 7306 7036 for more details.
+
+Boy: Thanks for sharing! Keep up the great work at ICE Computers!
+
+Girl: Thank you! Feel free to reach out if you're interested in learning more about ICE Computers.
+
+Boy: Will do! Thanks again and take care!
+
+Girl: You're welcome! Take care and have a great day!

@@ -1,0 +1,489 @@
+Question 1
+Single Choice
+Report
+Variable bins can be created using:-
+Options
+
+Sets
+
+Groups
+
+Parameters
+
+
+Question 2
+Single Choice
+Report
+Which of the following cannot be dragged onto filter shelf
+Options
+
+Parameter
+
+Sets Dimensions
+
+Dimensions
+
+Question 3
+Single Choice
+Report
+Pivot converts the following
+Options
+
+Rows to Column
+
+Columns to Rows
+
+Both of the above
+
+Question 4
+Single Choice
+Report
+Data interpreter can be used for the following Data sources only
+Options
+
+All types
+
+SQL
+
+EXCEL
+
+Question 5
+Single Choice
+Report
+Merge Mismatched field option does the following
+Options
+
+Combine two columns
+
+Combines two or more row
+
+Delete two or more columns
+
+Question 6
+Single Choice
+Report
+Advance table calculations involve
+Options
+
+Table down
+
+Table across
+
+Both
+
+Question 7
+Single Choice
+Report
+We can create groups based on geographical roles
+Options
+
+FALSE
+
+TRUE
+
+Question 8
+Single Choice
+Report
+Data interpreter moves first rows as column headers
+Options
+
+FALSE
+
+TRUE
+
+Question 9
+Single Choice
+Report
+______is used to create a subset of data
+Options
+
+set
+
+Parameter
+
+Group
+
+Question 10
+Single Choice
+Report
+Dynamic sets are not possible in Tableau
+Options
+
+FALSE
+
+TRUE
+
+Question 11
+Single Choice
+Report
+Chart is used for removing outliers
+Options
+
+Box Plot
+
+None of the above
+
+Scatter Plot
+
+Question 12
+Single Choice
+Report
+Date can be uses as both Dimensions and Measures
+Options
+
+FALSE
+
+TRUE
+
+Question 13
+Single Choice
+Report
+Which of the following is not a Trend Line model:
+Options
+
+Binomial Trend Line
+
+Exponential Trend Line
+
+Linear Trend Line
+
+Question 14
+Single Choice
+Report
+Binomial Trend Line
+Options
+
+Histogram
+
+JOIN
+
+Bar
+
+Question 15
+Single Choice
+Report
+__________color defines the continuous nature of data
+Options
+
+Green
+
+Red
+
+Blue
+
+Question 16
+Single Choice
+Report
+How many variables can be plotted on dual axis chart
+Options
+
+two
+
+three
+
+four
+
+Question 17
+Single Choice
+Report
+Level of detail can be used for
+Options
+
+Measures
+
+Dimensions
+
+Both of the above
+
+Question 16
+Single Choice
+Report
+How many variables can be plotted on dual axis chart
+Options
+
+two
+
+three
+
+four
+
+Question 17
+Single Choice
+Report
+Level of detail can be used for
+Options
+
+Measures
+
+Dimensions
+
+Both of the above
+
+Question 18
+Single Choice
+Report
+Donut chart is a customized chart in tableau
+Options
+
+FALSE
+
+TRUE
+
+Question 19
+Single Choice
+Report
+Which of the following is not the part of LoD calculations
+Options
+
+Line chart
+
+Pie chart
+
+Barchart
+
+Question 20
+Single Choice
+Report
+Dimensions Can Be Aggregated
+Options
+
+FALSE
+
+TRUE
+
+Question 21
+Single Choice
+Report
+Clustering in Tableau is an example of unsupervised learning
+Options
+
+FALSE
+
+TRUE
+
+Question 22
+Single Choice
+Report
+Quick summary of data is
+Options
+
+Dashboard
+
+Report
+
+Chart
+
+Question 23
+Single Choice
+Report
+In Data blending following join is created
+Options
+
+Left Join
+
+Right join
+
+outer join
+
+
+Question 24
+Single Choice
+Report
+In Tableau, how many tables can be joined using joins
+Options
+
+32
+
+56
+
+34
+
+Question 25
+Single Choice
+Report
+Which is the algorithm used by Tableau for forecasting
+Options
+
+Both of these
+
+Additive
+
+Multiplicative
+
+Question 26
+Single Choice
+Report
+Which chart to use to see relationship between 2 variable
+Options
+
+Scatter
+
+Bar
+
+Pie
+
+Question 27
+Single Choice
+Report
+Which of the following formula is used for regression in tableau
+Options
+
+Model_Percentile
+
+Model_Percentage
+
+Both of these
+
+Question 28
+Single Choice
+Report
+While having time or space predictors following is preferred
+Options
+
+Gaussian process regression
+
+Any of these
+
+Linear regression
+
+Question 29
+Single Choice
+Report
+For integrating tableau with R following library is needed
+Options
+
+R Serve
+
+S-Serve
+
+Kserve
+
+Question 30
+Single Choice
+Report
+Whats the optimal method to share the power bi reports in an organization:-
+Options
+
+Share PBIX file
+
+Create a pdf output and share via mail
+
+Publish them to the Power BI service
+
+Question 31
+Single Choice
+Report
+___________is also known as powerBI online
+Options
+
+Power BI service
+
+Power BI mobile
+
+Power BI desktop
+
+Question 32
+Single Choice
+Report
+Creates the connection between Power BI cloud-based data and the data source located on-premises________
+Options
+
+Report View
+
+Gateway
+
+Power BI service
+
+Question 33
+Single Choice
+Report
+Following data source is available on Power BI service
+Options
+
+Power BI dataset
+
+SQL
+
+Excel
+
+Question 34
+Single Choice
+Report
+Power BI provides ________GB data for the trial version
+Options
+
+10
+
+20
+
+30
+
+Question 35
+Single Choice
+Report
+Managed alerts can be applied to following charts:-
+Options
+
+KPI
+
+Bar
+
+Chart
+
+Question 36
+Single Choice
+Report
+Managed roles in power BI desktop is connected to______in PowerBI Service
+Options
+
+security
+
+Backup
+
+Workspace
+
+
+Question 37
+Single Choice
+Report
+How many types of roles (admin, member, etc.)can be assigned to in powerbi service
+Options
+
+4
+
+3
+
+2
+
+
+Question 38
+Single Choice
+Report
+Data published on my workspace is visible to other people
+Options
+
+TRUE
+
+FALSE
+
+Question 39
+Single Choice
+Report
+Data cannot be refreshed manually in case of automatic schedule refresher is active
+Options
+
+TRUE
+
+FALSE
+
+Question 40
+Single Choice
+Report
+Calculate a result from an expression formula and the result can only be viewed in the visualization_____
+Options
+
+Measures
+
+Function
+
+Calculated column

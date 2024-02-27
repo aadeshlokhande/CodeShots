@@ -1,0 +1,40 @@
+SQL Case Study: Student Education
+Below is the link for dataset for Students Adaptability Level in Online Education
+ 
+Link for Dataset : https://drive.google.com/file/d/1NNLdWVVEzmUhv3MsYqmNVoYivqtVLVxc/view?usp=sharing 
+ 
+features: - 
+Gender-  Gender type of student
+Age- Age of the student 
+Education- Education institution Level
+Institution Type- Education institution Type
+IT Student- Studying as IT student or not 
+Location- Is student location in town 
+Load-shedding- Level of load shedding 
+Financial Condition- Financial condition of family
+Internet Type- Internet Type used mostly in device
+Network Type- Network connectivity type
+Class Duration- Daily class Duration
+Self Lms- Institution own LMS availability 
+Device- Device used mostly in class
+Adaptivity Level- Adaptability Level of the student.
+ 
+Questions:-
+Q1.Write a query to identify the duplicates in the data
+Q2.find the percentage of students from Institute Type is non-government type?
+Q3.Find the average adaptability level of students working from various devices to see the impact of devices on the adaptability. Take Low adaptability as 1,medium as 2 and high as 3.
+Q4.Find the  data of Girls having age between 16 to 20 came from University ?
+
+
+
+=======================================================================================
+Business case Study - Wedding Planners
+XYZ Company is going to announce its Salesperson of the Year Awards 2022.
+Here is a list of their top 10 employees from all the major cities in India.
+
+DATA SET-
+https://docs.google.com/spreadsheets/d/1277koeta4T0XH370ytPyhvSHw2Uw73jYIV_HdUGjquo/edit?usp=sharing 
+Question-1- Sort the table in alphabetical order for the salesperson name. Find the mean value of the total sales from all four quarters for each salesperson. Use heatmap to highlight the sales figures higher .Lower the sales value lighter is the shade highlighting the cell. Explain the approach in a 1 min loom video.
+Question 2-Look up the sales value 38000 in the first quarter in column A (or nearest value) and find from which location that person is from. Count how many people made it above 38000 in the first quarter. Explain the approach in a 1 min loom video.
+Question 3-Find the annual sales of each person. Represent it in the best way possible. Rank the annual sales based on their location . Find the Explain the approach in a 1 min loom video. 
+Question 4-Show the distribution for each salesperson with a relevant chart
